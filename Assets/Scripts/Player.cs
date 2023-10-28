@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class Player : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class Player : MonoBehaviour
     public int health = 5;
     void Update()
     {
+        if ( health <= 0 )
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);   
+        }
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y < maxHeight)
