@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   speed: 0.025
+  sound: {fileID: 7271421479976247664, guid: 35fdb50c7e4f41f43bafcee795c03edd, type: 3}
 --- !u!114 &8048775958654643162
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,6 +6,8 @@ public class Gear : MonoBehaviour
 {
     public int damage = 1;
     public float speed;
+
+    public GameObject sound;
    
     void Update()
     {
@@ -16,6 +18,7 @@ public class Gear : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Instantiate(sound, transform.position, Quaternion.identity);
             other.GetComponent<Player>().health -= damage;
             Destroy(gameObject);
         }
