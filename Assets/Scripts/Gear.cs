@@ -11,7 +11,7 @@ public class Gear : MonoBehaviour
    
     void Update()
     {
-        transform.Translate(Vector2.left * speed);
+        transform.Translate(Vector2.left * speed* Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

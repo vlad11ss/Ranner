@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 108079242}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22, y: 0, z: 0}
+  m_LocalPosition: {x: 22, y: 0, z: -3}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -334,7 +334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 476, y: 272}
+  m_AnchoredPosition: {x: 831, y: 488}
   m_SizeDelta: {x: 202.8543, y: 69.3983}
   m_Pivot: {x: 0.50000006, y: 0.50000036}
 --- !u!114 &209952702
@@ -359,7 +359,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
+    m_FontSize: 62
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -405,7 +405,7 @@ Transform:
   m_GameObject: {fileID: 335977586}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -769,7 +769,7 @@ Canvas:
   m_GameObject: {fileID: 630076305}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -781,7 +781,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &630076309
 RectTransform:
@@ -1077,7 +1077,7 @@ Transform:
   m_GameObject: {fileID: 1072682848}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.33496, y: 0, z: -0.21597971}
+  m_LocalPosition: {x: -2.45, y: 0, z: -0.21597971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1117,7 +1117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -479.32, y: 273.05}
+  m_AnchoredPosition: {x: -834, y: 482}
   m_SizeDelta: {x: 202.8543, y: 69.3983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1080060841
@@ -1142,7 +1142,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
+    m_FontSize: 62
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -1532,7 +1532,7 @@ MonoBehaviour:
   - {fileID: 582124848434629646, guid: 386f922047e16354eb446befa7f5fce8, type: 3}
   - {fileID: 3460325644471923988, guid: 779910964e2212847a7018cee7febd6e, type: 3}
   - {fileID: 1551395839784927288, guid: 5192c89f1df53664d995969928c70f2a, type: 3}
-  startTimeBtwSpawn: 1.5
+  startTimeBtwSpawn: 2
   decreaseTime: 0.05
   minTime: 0.65
 --- !u!4 &2038598565
